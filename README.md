@@ -1,4 +1,4 @@
-# Enable privacy snapshot for React Native
+# Enable privacy sdk for React Native
 
 In the [App Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW8), Apple says:
 
@@ -16,15 +16,15 @@ This react-native module obscure passwords and other sensitive personal informat
 
 ## Installation iOS
 
-1. Run `npm install react-native-privacy-snapshot --save` in your project directory
+1. Run `npm install https://github.com/SocialSkyInc/react-native-privacy-sdk.git --save` in your project directory
 1. Open your project in XCode, right click on `Libraries` and click `Add Files to "Your Project Name"`
-1. Within `node_modules`, find `react-native-privacy-snapshot` and add RCTPrivacySnapshot.xcodeproj to your project.
+1. Within `node_modules`, find `react-native-privacy-sdk` and add RCTPrivacySnapshot.xcodeproj to your project.
 1. Add `libRTCPrivacySnapshot.a` to `Build Phases -> Link Binary With Libraries`
 
 ## Usage
 
 ``` javascript
-let PrivacySnapshot = require('react-native-privacy-snapshot');
+let PrivacySnapshot = require('react-native-privacy-sdk');
 
 ...
 
