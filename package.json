@@ -1,0 +1,24 @@
+{
+  "name": "react-native-privacy-sdk",
+  "version": "1.0.1",
+  "description": "Obscure passwords and other sensitive personal information when a react-native app transitions to the background",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "privacy",
+    "snapshot",
+    "secure"
+  ],
+  "homepage": "https://git.safee.io/mobile/react-native-privacy-sdk",
+  "bugs": {
+    "url": "https://git.safee.io/mobile/react-native-privacy-sdk/issues"
+  },
+  "nativePackage": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@git.safee.io:mobile/react-native-privacy-sdk.git"
+  },
+  "author": "SocialSky <http://www.socialskycorp.com>",
+  "license": "OpenSYL"
+}
