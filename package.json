@@ -10,14 +10,14 @@
     "snapshot",
     "secure"
   ],
-  "homepage": "https://git.safee.io/mobile/react-native-privacy-sdk",
+  "homepage": "https://github.com/SocialSkyInc/react-native-privacy-sdk",
   "bugs": {
-    "url": "https://git.safee.io/mobile/react-native-privacy-sdk/issues"
+    "url": "https://github.com/SocialSkyInc/react-native-privacy-sdk/issues"
   },
   "nativePackage": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@git.safee.io:mobile/react-native-privacy-sdk.git"
+    "url": "https://github.com/SocialSkyInc/react-native-privacy-sdk.git"
   },
   "author": "SocialSky <http://www.socialskycorp.com>",
   "license": "OpenSYL"
